@@ -8,105 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1180337097,
-        "Kind": "Components.Component",
-        "Name": "WebAssemblyBlazorChromeExtension.App",
-        "AssemblyName": "WebAssemblyBlazorChromeExtension",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblyBlazorChromeExtension.App"
-        }
-      },
-      {
-        "HashCode": -959389043,
-        "Kind": "Components.Component",
-        "Name": "WebAssemblyBlazorChromeExtension.App",
-        "AssemblyName": "WebAssemblyBlazorChromeExtension",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebAssemblyBlazorChromeExtension.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblyBlazorChromeExtension.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1153705527,
-        "Kind": "Components.Component",
-        "Name": "WebAssemblyBlazorChromeExtension.Pages.Index",
-        "AssemblyName": "WebAssemblyBlazorChromeExtension",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblyBlazorChromeExtension.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1688019045,
-        "Kind": "Components.Component",
-        "Name": "WebAssemblyBlazorChromeExtension.Pages.Index",
-        "AssemblyName": "WebAssemblyBlazorChromeExtension",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebAssemblyBlazorChromeExtension.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblyBlazorChromeExtension.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1393185513,
-        "Kind": "Components.Component",
-        "Name": "WebAssemblyBlazorChromeExtension.Pages.Options",
-        "AssemblyName": "WebAssemblyBlazorChromeExtension",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Options"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblyBlazorChromeExtension.Pages.Options"
-        }
-      },
-      {
-        "HashCode": 1369255370,
-        "Kind": "Components.Component",
-        "Name": "WebAssemblyBlazorChromeExtension.Pages.Options",
-        "AssemblyName": "WebAssemblyBlazorChromeExtension",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebAssemblyBlazorChromeExtension.Pages.Options"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblyBlazorChromeExtension.Pages.Options",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1273305114,
         "Kind": "Components.Component",
         "Name": "WebAssemblyBlazorChromeExtension.Shared.MainLayout",
@@ -199,6 +100,105 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "WebAssemblyBlazorChromeExtension.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1153705527,
+        "Kind": "Components.Component",
+        "Name": "WebAssemblyBlazorChromeExtension.Pages.Index",
+        "AssemblyName": "WebAssemblyBlazorChromeExtension",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebAssemblyBlazorChromeExtension.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1688019045,
+        "Kind": "Components.Component",
+        "Name": "WebAssemblyBlazorChromeExtension.Pages.Index",
+        "AssemblyName": "WebAssemblyBlazorChromeExtension",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebAssemblyBlazorChromeExtension.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebAssemblyBlazorChromeExtension.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1393185513,
+        "Kind": "Components.Component",
+        "Name": "WebAssemblyBlazorChromeExtension.Pages.Options",
+        "AssemblyName": "WebAssemblyBlazorChromeExtension",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Options"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebAssemblyBlazorChromeExtension.Pages.Options"
+        }
+      },
+      {
+        "HashCode": 1369255370,
+        "Kind": "Components.Component",
+        "Name": "WebAssemblyBlazorChromeExtension.Pages.Options",
+        "AssemblyName": "WebAssemblyBlazorChromeExtension",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebAssemblyBlazorChromeExtension.Pages.Options"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebAssemblyBlazorChromeExtension.Pages.Options",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1180337097,
+        "Kind": "Components.Component",
+        "Name": "WebAssemblyBlazorChromeExtension.App",
+        "AssemblyName": "WebAssemblyBlazorChromeExtension",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebAssemblyBlazorChromeExtension.App"
+        }
+      },
+      {
+        "HashCode": -959389043,
+        "Kind": "Components.Component",
+        "Name": "WebAssemblyBlazorChromeExtension.App",
+        "AssemblyName": "WebAssemblyBlazorChromeExtension",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebAssemblyBlazorChromeExtension.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebAssemblyBlazorChromeExtension.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

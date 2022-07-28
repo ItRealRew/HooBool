@@ -210,7 +210,6 @@ C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\open-iconic\
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\open-iconic\README.md
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\index.html
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\manifest.json
-C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\webassembly.png
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\WebAssemblyBlazorChromeExtension.dll
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\WebAssemblyBlazorChromeExtension.pdb
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\WebAssemblyBlazorChromeExtension.dll
@@ -389,6 +388,6 @@ C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\options.html
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\settings.json
 C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Options.razor.g.cs
 C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\Razor\Pages\Options.razor.g.cs
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\bwTiQ2xa4Sof01ZS4ejK0CrmzVF2naFjZKtxdqzPv90=.hash
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\fiYtKPmfYIRoPLeY19PflrPezlKgO4JjFJUORKAuF_Y=.hash
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\ywEGlWtWblen0cBvWc7qIC8TkH_b6jA7A77SttSxEr8=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\hF6x-l0mge7HUbCvoBmtRnXufXmuJCEOC6YD1VaWbto=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\YOLITGTjLixfkBGFLe0O2yV1bLhg0LdqNzVVV8n2_AI=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\8W3Zop3QRSHJGfObVjF6SuWHug7JdI1pxcs4ohht9QM=.hash

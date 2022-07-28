@@ -1,5 +1,6 @@
 ﻿@page "/options.html"
-@inject Models.Settings settings
+@inject HoodBool.Models.Settings settings
+@inject HoodBool.Services.SettingsHandler SettingsHandler
 
 <div class="text-options">
     <h1>Settings</h1>
@@ -20,11 +21,20 @@
 
 
 @code {
+    public void GetSettings() {
+        SettingsHandler.Get();
+    }
+
+    public void SaveSetings() {
+
+    }
+
     protected override void OnInitialized()
     {
         base.OnInitialized();
 
-        // Получение данных настроек.
-        settings.SavePath =  "ТЕСТ";
+        GetSettings();
+        settings.SavePath =  "Test";
+        Console.WriteLine(JsonSerializer.Serialize(settings.SavePath));
     }
 }

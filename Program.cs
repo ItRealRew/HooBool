@@ -8,7 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using WebAssemblyBlazorChromeExtension.Services;
-using WebAssemblyBlazorChromeExtension.Models;
+using HoodBool.Models;
+using HoodBool.Services;
 
 namespace WebAssemblyBlazorChromeExtension
 {
@@ -20,6 +21,8 @@ namespace WebAssemblyBlazorChromeExtension
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddSingleton<StopWatch>();
+            
+            builder.Services.AddSingleton<SettingsHandler>();
             builder.Services.AddSingleton<Settings>();
 
             builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });

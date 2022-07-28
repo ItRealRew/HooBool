@@ -131,20 +131,30 @@ using System.Text.Json.Serialization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 22 "C:\Users\User\Desktop\HoodBool\Pages\Options.razor"
+#line 23 "C:\Users\User\Desktop\HoodBool\Pages\Options.razor"
        
+    public void GetSettings() {
+        SettingsHandler.Get();
+    }
+
+    public void SaveSetings() {
+
+    }
+
     protected override void OnInitialized()
     {
         base.OnInitialized();
 
-        // Получение данных настроек.
-        settings.SavePath =  "ТЕСТ";
+        GetSettings();
+        settings.SavePath =  "Test";
+        Console.WriteLine(JsonSerializer.Serialize(settings.SavePath));
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private Models.Settings settings { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HoodBool.Services.SettingsHandler SettingsHandler { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HoodBool.Models.Settings settings { get; set; }
     }
 }
 #pragma warning restore 1591

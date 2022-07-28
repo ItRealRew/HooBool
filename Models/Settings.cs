@@ -1,4 +1,4 @@
-namespace WebAssemblyBlazorChromeExtension.Models
+namespace HoodBool.Models
 {
     public class Settings
     {

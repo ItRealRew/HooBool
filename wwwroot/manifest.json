@@ -3,10 +3,16 @@
   "name": "HoodBool",
   "version": "0.1.0",
   "description": ".NET inside a chrome extension",
-  "icons": { "128": "logo.png" },
+  "icons": {
+    "128": "logo.png"
+  },
   "browser_action": {
     "default_popup": "index.html"
   },
   "options_page": "options.html",
-  "content_security_policy": "script-src 'self' 'wasm-eval' 'sha256-v8v3RKRPmN4odZ1CWM5gw80QKPCCWMcpNeOmimNL2AA='; object-src 'self'"
+  "content_security_policy": "script-src 'self' 'wasm-eval' 'sha256-v8v3RKRPmN4odZ1CWM5gw80QKPCCWMcpNeOmimNL2AA='; object-src 'self'",
+  "web_accessible_resources": [
+    "framework/*",
+    "content/*"
+  ]
 }
