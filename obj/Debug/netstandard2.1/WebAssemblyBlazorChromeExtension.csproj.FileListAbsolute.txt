@@ -389,6 +389,6 @@ C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\options.html
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\settings.json
 C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Options.razor.g.cs
 C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\Razor\Pages\Options.razor.g.cs
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\6TId5rr5Hr7eRRsw5reKdAFPu5e4PbdFrrkEfk2qblQ=.hash
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\Ij_kFw97ka0qLQh5t4ibCnhUmyJ7vnXjFOLKR5GjwmI=.hash
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\3Atltit5JcukF8GsdE5wKT5aDLs02f5dutGzf0MWzkw=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\bwTiQ2xa4Sof01ZS4ejK0CrmzVF2naFjZKtxdqzPv90=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\fiYtKPmfYIRoPLeY19PflrPezlKgO4JjFJUORKAuF_Y=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\ywEGlWtWblen0cBvWc7qIC8TkH_b6jA7A77SttSxEr8=.hash
