@@ -1,0 +1,30 @@
+﻿@page "/options.html"
+@inject Models.Settings settings
+
+<div class="text-options">
+    <h1>Settings</h1>
+    <hr>
+    <div>
+        <span>Path to new file</span>
+        <br>
+        <input @bind="settings.SavePath">
+    </div>
+    <div>
+        <span>Language</span>
+        <br>
+        <select>
+
+        </select>
+    </div>
+</div>
+
+
+@code {
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        // Получение данных настроек.
+        settings.SavePath =  "ВАСАП";
+    }
+}

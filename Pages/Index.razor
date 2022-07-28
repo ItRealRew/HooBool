@@ -1,0 +1,74 @@
+﻿@page "/index.html"
+@inject Services.StopWatch StopWatch
+
+@if (recordStatus)
+{
+    <span class="rec rec-pos"></span>
+    <span class="stop-watch-lable"> @seconds </span> 
+    <button class="click-btn btn-position1" @onclick="@stopRecord">stop</button>
+}
+
+else
+{
+    <span class="no-rec rec-pos"></span>
+    @if(@seconds != "" ) {
+        <button class="click-btn btn-position2" @onclick="@openLastEntry">last</button> 
+        <span class="stop-watch-lable"> @secondsFinaly </span> 
+    }
+    <button class="click-btn btn-position1" @onclick="@startRecord">start</button>
+}
+
+@code {
+    // Количество потраченого времени.
+    public string seconds = "";
+
+    //Финальное количество времени
+    public string secondsFinaly = "00:00";
+
+    // Описывает состояние.
+    private bool recordStatus = false;
+
+    // Завершение записи.
+    private void stopRecord()
+    {
+        secondsFinaly =  seconds;
+        recordStatus = false;
+    }
+    
+    // Начало записи.
+    private void startRecord()
+    {
+        seconds = "00:00";
+        StopWatch.StartTime();
+        recordStatus = true;
+    }
+
+    // Обновление секундомера.
+    private async Task updateStopWatch()
+    {
+        seconds = StopWatch.GetCurrentTime();
+    }
+
+    // Открытие папки с последним видео.
+    private void openLastEntry()
+    {
+        Console.WriteLine("It Feature;");
+    }
+
+    private string Time { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        // Таймер для секундомера.
+        var timer = new System.Threading.Timer((_) =>
+        {
+            InvokeAsync( async ()  =>
+            {
+                await updateStopWatch();
+                StateHasChanged();
+            });
+        }, null, 0, 1000);
+    }
+}
