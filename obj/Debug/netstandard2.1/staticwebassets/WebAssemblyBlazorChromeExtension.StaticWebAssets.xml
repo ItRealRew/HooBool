@@ -1,3 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Blazored.Modal" Path="C:\Users\User\.nuget\packages\blazored.modal\6.0.1\build\..\staticwebassets\" />
   <ContentRoot BasePath="/" Path="C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\" />
 </StaticWebAssets>

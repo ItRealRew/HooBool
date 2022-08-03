@@ -131,22 +131,30 @@ using System.Text.Json.Serialization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "C:\Users\User\Desktop\HoodBool\Pages\Options.razor"
+#line 30 "C:\Users\User\Desktop\HoodBool\Pages\Options.razor"
        
-    public void GetSettings() {
+    public string result;
+
+    public void GoResult()
+    {
+        result = settings.SavePath;
+        result = result.Replace("%22", "\"");
+        result = result.Replace("%2C", ",");
+        result = result.Replace("%2", " ");
+    }
+
+    public void GetSettings()
+    {
         SettingsHandler.Get();
     }
 
-    public void SaveSetings() {
-
-    }
+    public void SaveSetings(){}
 
     protected override void OnInitialized()
     {
         base.OnInitialized();
-
         GetSettings();
-        settings.SavePath =  "Test";
+        settings.SavePath = "";
         Console.WriteLine(JsonSerializer.Serialize(settings.SavePath));
     }
 

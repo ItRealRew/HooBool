@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "HoodBool",
   "version": "0.1.0",
-  "description": ".NET inside a chrome extension",
+  "description": "Parser cookies for Sanya XD",
   "icons": {
     "128": "logo.png"
   },
