@@ -1,4 +1,28 @@
 ﻿@inherits LayoutComponentBase
+@inject HoodBool.Services.Modal modal
 
-<div class="ModalBody">
-</div>
+@if (Active == true)
+{
+<div class="block-content"></div>
+    <div class="modal">
+        <div class="modal-header"> 
+            <button class="click-btn btn-position4" @onclick="@CloseModal">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0" x2="100" y1="0" y2="100" />
+                    <line x1="0" x2="100" y1="100" y2="0" />
+                </svg>
+            </button>
+        </div>
+    </div>
+}
+
+
+@code {
+    [Parameter]
+    public bool Active { get; set; }
+
+    public void CloseModal()
+    {
+        Active = false;
+    }
+}

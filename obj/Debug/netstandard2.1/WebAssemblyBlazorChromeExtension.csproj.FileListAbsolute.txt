@@ -197,8 +197,6 @@ C:\Users\User\Desktop\WebAssemblyBlazorChromeExtension\obj\Debug\netstandard2.1\
 C:\Users\User\Desktop\WebAssemblyBlazorChromeExtension\obj\Debug\netstandard2.1\WebAssemblyBlazorChromeExtension.pdb
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\WebAssemblyBlazorChromeExtension.StaticWebAssets.xml
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\app.css
-C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\bootstrap\bootstrap.min.css
-C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\bootstrap\bootstrap.min.css.map
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\open-iconic\FONT-LICENSE
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
 C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
@@ -391,6 +389,8 @@ C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk
 C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
 C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\RazorDeclaration\Shared\Modal.razor.g.cs
 C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\Razor\Shared\Modal.razor.g.cs
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\tQSVGrxq9uNOglggvDz1KmNH4NJX5UmIRUi5xq8Vu6Y=.hash
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\IAayzEOtfwHd-_pm6_TNUS8-Bx7Z1Cv9LhUC5xdLB7E=.hash
-C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\nf5nEAjRl7D9B066oy8nsfchjSPWH7Pv8h7aOSHvJIA=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\vcO7tbj-9v0TDaucvAWgPUUVqloFhYrgukrbfi_kN7g=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\wSp3P6SC4icpAuAaKO8HACa7MNqBH2YoDZJg9WQAP6Q=.hash
+C:\Users\User\Desktop\HoodBool\obj\Debug\netstandard2.1\integrity\Hg348IMwEF9eddASeFLG_Qu50nWehUhqmJ9xcw-of0w=.hash
+C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\User\Desktop\HoodBool\bin\Debug\netstandard2.1\wwwroot\css\bootstrap\bootstrap.min.css.map

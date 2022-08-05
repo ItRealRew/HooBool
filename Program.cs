@@ -20,6 +20,8 @@ namespace WebAssemblyBlazorChromeExtension
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
 
+            builder.Services.AddSingleton<Modal>();
+
             builder.Services.AddSingleton<StopWatch>();
             
             builder.Services.AddSingleton<SettingsHandler>();

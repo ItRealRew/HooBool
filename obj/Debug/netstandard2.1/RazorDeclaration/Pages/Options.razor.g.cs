@@ -131,16 +131,24 @@ using System.Text.Json.Serialization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\User\Desktop\HoodBool\Pages\Options.razor"
+#line 32 "C:\Users\User\Desktop\HoodBool\Pages\Options.razor"
        
     public string result;
 
     public void GoResult()
     {
-        result = settings.SavePath;
-        result = result.Replace("%22", "\"");
-        result = result.Replace("%2C", ",");
-        result = result.Replace("%2", " ");
+        if (settings.SavePath != "")
+        {
+            result = settings.SavePath;
+            result = result.Replace("%22", "\"");
+            result = result.Replace("%2C", ",");
+            result = result.Replace("%2", " ");
+        }
+    }
+
+    public void OpenModal()
+    {
+        modal.Active = true;
     }
 
     public void GetSettings()
@@ -161,6 +169,7 @@ using System.Text.Json.Serialization;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HoodBool.Services.Modal modal { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HoodBool.Services.SettingsHandler SettingsHandler { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HoodBool.Models.Settings settings { get; set; }
     }
